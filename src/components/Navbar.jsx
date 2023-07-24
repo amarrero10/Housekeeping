@@ -14,9 +14,9 @@ function Navbar() {
           <ul className="hidden md:flex text-xl">
             <li>Home</li>
             <li>About</li>
-            <li>Contact</li>
             <li>Pricing</li>
             <li>Services</li>
+            <li>Contact</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
