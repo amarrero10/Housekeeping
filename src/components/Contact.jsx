@@ -38,8 +38,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formattedDate = selectedDate ? selectedDate.toLocaleDateString() : "";
-    // You can now use the selectedDate state to store the chosen date.
+
     emailjs.sendForm("service_zlanr09", "template_4czqznn", form.current, "jwLUixlerwVK9ReDL").then(
       (result) => {
         setStatus("Sent!");

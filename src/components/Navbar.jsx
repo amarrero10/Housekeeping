@@ -46,7 +46,7 @@ function Navbar() {
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <Link to="hero" spy={true} smooth={true} offset={0} duration={500} className=" w-full">
-            <img src={logo} className=" sm:h-24 h-24 -ml-3 cursor-pointer" />
+            <img src={logo} alt="brand" className=" sm:h-24 h-24 -ml-3 cursor-pointer" />
           </Link>
         </div>
         <div>
