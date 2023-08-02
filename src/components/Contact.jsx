@@ -65,15 +65,15 @@ function Contact() {
 
   return (
     <div>
-      <h2 className="text-center mt-36 text-4xl font-bold">Contact Us!</h2>
+      <h2 className="text-center sm:mt-36 mt-10 text-4xl font-bold">Contact Us!</h2>
       <div
         id="contact"
         className="flex flex-col justify-center mx-auto sm:w-[800px] shadow-xl mt-10 mb-5"
       >
-        <div className="text-center">
+        <div className="text-center p-2">
           <p>
             Have specific questions? Please fill out the form below and we will be happy to assist
-            you.
+            you or contact us at xxx-xxx-xxxx.
           </p>
         </div>
         <form

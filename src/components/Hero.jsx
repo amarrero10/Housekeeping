@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function Hero() {
   return (
     <>
-      <div className="w-full h-screen  flex flex-col justify-between " id="hero">
+      <div className="w-full h-screen  flex flex-col justify-between pt-6 sm:pt-0" id="hero">
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto ">
           <div className="flex flex-col justify-center md:items-start w-full px-2 py-8 mt-10 sm:mt-0">
             <p className="text-2xl">Enjoy a Clean and Relaxing Home</p>
@@ -18,7 +18,7 @@ function Hero() {
               to="contact"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-190}
               duration={500}
               className=" w-full"
             >
